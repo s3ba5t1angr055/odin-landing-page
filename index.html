@@ -3,36 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
-  <body>
-    <div class="biggest-div">
-      <div class="header1">
-        <div class="header3">Header Logo</div>
-        <div class="links-right">
-          <div class="header3">header link one</div>
-          <div class="header3">header link two</div>
-          <div class="header3">header link three</div>
-        </div>
+  <body class="body">
+    <div class="container">
+      <div class="container-navbar-section-one">
+        <nav class="navbar">
+          <ul class="header-links-logo">
+            <li class="logo">Header Logo</li>
+            <div class="links-right">
+              <li><a href="">header link one</a></li>
+              <li><a href="">header link two</a></li>
+              <li><a href="">header link three</a></li>
+            </div>
+          </ul>
+        </nav>
+        <section class="section-one">
+          <div class="hero-left-column">
+            <h1 class="main-header">This website is awesome</h1>
+            <p class="hero-secondary-text">
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast
+            </p>
+            <button class="button-hero">Sign up</button>
+          </div>
+          <img
+            src="https://via.placeholder.com/550x250"
+            alt="Platzhalterbild mit 550x250 Pixel"
+          />
+        </section>
       </div>
-      <div class="header2">
-        <div class="header2-1">
-          <h1>This website is awesome</h1>
+
+      <section class="section-two">
+        <h2 class="information-header">Some random information.</h2>
+        <div class="picture-gallery">
+          <div class="pic-comm">
+            <img src="https://via.placeholder.com/120" alt="Platzhalterbild" />
+            <figcaption>
+              this is some subtext under an illustration or image
+            </figcaption>
+          </div>
+          <div class="pic-comm">
+            <img src="https://via.placeholder.com/120" alt="Platzhalterbild" />
+            <figcaption>
+              this is some subtext under an illustration or image
+            </figcaption>
+          </div>
+          <div class="pic-comm">
+            <img src="https://via.placeholder.com/120" alt="Platzhalterbild" />
+            <figcaption>
+              this is some subtext under an illustration or image
+            </figcaption>
+          </div>
+          <div class="pic-comm">
+            <img src="https://via.placeholder.com/120" alt="Platzhalterbild" />
+            <figcaption>
+              this is some subtext under an illustration or image
+            </figcaption>
+          </div>
+        </div>
+      </section>
+      <section class="section-three">
+        <blockquote class="quote">
+          "This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice."
+        </blockquote>
+        <cite class="cite">- Thor, God of Thunder</cite>
+      </section>
+      <section class="section-four">
+        <div class="sf-container">
+          <h4>Call to action! It's time!</h4>
           <p>
-            This website has some subtext that goes here under the main title.
-            It´s a smaller font and the color is lower contrast.
+            Sign up for our product by clicking that button right over there!
           </p>
-          <button>Sign Up</button>
         </div>
-        <div class="header2-1"></div>
-      </div>
+        <button class="sf-button">Sign up</button>
+      </section>
+      <section class="section-five">
+        <footer>Copyright &copy; The Odin Project 2021</footer>
+      </section>
     </div>
   </body>
 </html>
